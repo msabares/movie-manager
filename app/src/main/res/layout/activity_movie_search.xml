@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Movies.MovieSearch">
+
+    <TextView
+        android:id="@+id/txtSearchMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Movies"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etSeachMovies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:defaultFocusHighlightEnabled="false"
+        android:ems="10"
+        android:focusedByDefault="false"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/search_go" />
+</LinearLayout>
